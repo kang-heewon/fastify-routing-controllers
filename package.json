@@ -1,15 +1,15 @@
 {
   "name": "fastify-routing-controllers",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "fastify driver for routing controllers",
   "author": "kang-heewon <heewon.dev@gmail.com>",
   "license": "MIT",
   "sideEffects": false,
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm2015/index.js",
-  "es2015": "./dist/esm2015/index.js",
-  "typings": "./dist/types/index.d.ts",
+  "main": "./cjs/index.js",
+  "module": "./esm2015/index.js",
+  "es2015": "./esm2015/index.js",
+  "typings": "./types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/kang-heewon/fastify-routing-controllers.git"
@@ -25,7 +25,9 @@
     "build": "yarn build:type && yarn build:es5 && yarn build:cjs",
     "build:type": "tsc -p tsconfig.types.lib.json",
     "build:es5": "tsc -p tsconfig.es5.lib.json",
-    "build:cjs": "tsc -p tsconfig.cjs.lib.json"
+    "build:cjs": "tsc -p tsconfig.cjs.lib.json",
+    "copy": "cp package.json dist",
+    "publish": "yarn build && yarn copy"
   },
   "devDependencies": {
     "@types/node": "^17.0.23",
