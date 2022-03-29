@@ -5,5 +5,5 @@
     "strict": false,
     "declaration": false
   },
-  "exclude": ["example"]
+  "exclude": ["dist", "example"]
 }

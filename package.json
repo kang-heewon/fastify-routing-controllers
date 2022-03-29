@@ -1,7 +1,7 @@
 {
   "name": "fastify-routing-controllers",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "fastify driver for routing controllers",
   "author": "kang-heewon <heewon.dev@gmail.com>",
   "license": "MIT",
@@ -12,7 +12,7 @@
   "typings": "./dist/types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/typestack/routing-controllers.git"
+    "url": "https://github.com/kang-heewon/fastify-routing-controllers.git"
   },
   "tags": [
     "fastify",
