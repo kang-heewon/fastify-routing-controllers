@@ -1,0 +1,23 @@
+{
+  "name": "fastify-routing-controller",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "kang-heewon <heewon.dev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.lib.json"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
+    "fastify": "^3.27.4",
+    "fastify-multer": "^2.0.2",
+    "middie": "^6.0.0",
+    "prettier": "^2.6.1",
+    "routing-controllers": "^0.9.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
