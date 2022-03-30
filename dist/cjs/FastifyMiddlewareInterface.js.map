@@ -1,0 +1,1 @@
+{"version":3,"file":"FastifyMiddlewareInterface.js","sourceRoot":"","sources":["../../src/FastifyMiddlewareInterface.ts"],"names":[],"mappings":"","sourcesContent":["export interface FastifyMiddlewareInterface {\n    use(request: any, response: any, next: (err?: any) => any): any;\n}\n"]}
